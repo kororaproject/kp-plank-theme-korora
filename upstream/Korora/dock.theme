@@ -27,10 +27,14 @@ BottomPadding=2
 ItemPadding=2
 #The size of item indicators, in tenths of a percent of IconSize.
 IndicatorSize=5
+#The size of the icon-shadow behind every item, in tenths of a percent of IconSize.
+IconShadowSize=1
 #The height (in percent of IconSize) to bounce an icon when the application sets urgent.
 UrgentBounceHeight=1.6666666666666667
 #The height (in percent of IconSize) to bounce an icon when launching an application.
 LaunchBounceHeight=0.625
+#The opacity value (0 to 1) to fade the dock to when hiding it.
+FadeOpacity=1
 #The amount of time (in ms) for click animations.
 ClickTime=300
 #The amount of time (in ms) to bounce an urgent icon.
@@ -51,3 +55,7 @@ GlowSize=30
 GlowTime=10000
 #The time (in ms) of each pulse of the hidden-dock urgent glow.
 GlowPulseTime=2000
+#The hue-shift (-180 to 180) of the urgent indicator color.
+UrgentHueShift=150
+#The time (in ms) to move an item to its new position.
+ItemMoveTime=150
